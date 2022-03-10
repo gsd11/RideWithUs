@@ -1,0 +1,154 @@
+body {
+	font-size: 16px;
+}
+
+.header {
+	height: 65vh;
+	width: 100%;
+	top: 100px;
+	color: white;
+	
+	background: linear-gradient(to right, rgba(34, 57, 187, 0.9),
+		rgba(170, 97, 97, 0.5)),
+		url(https://media.istockphoto.com/vectors/online-map-navigation-for-car-at-large-tablet-vector-illustration-vector-id1253841604?b=1&k=20&m=1253841604&s=612x612&w=0&h=FZKLuDJViKAKeia77WF1ZaEAOFtIRyFf3tXiNNl9AFA=);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: contain;
+}
+
+.login-sidebar {
+	height: 50vh;
+	width: 100%;
+	top: 100px;
+	
+	color: white;
+	background:
+		url("/images/loginimg.png");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.signup-sidebar {
+	height: 50vh;
+	width: 100%;
+	top: 100px;
+	
+	color: white;
+	background:
+		url("/images/registerimg.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.cabs_header {
+	height: 35vh;
+	width: 100%;
+	top: 100px;
+	color: white;
+
+	background: linear-gradient(to right, rgba(34, 57, 187, 0.9),
+		rgba(170, 97, 97, 0.5)),
+		url(https://media.istockphoto.com/vectors/online-map-navigation-for-car-at-large-tablet-vector-illustration-vector-id1253841604?b=1&k=20&m=1253841604&s=612x612&w=0&h=FZKLuDJViKAKeia77WF1ZaEAOFtIRyFf3tXiNNl9AFA=);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.publishpage{
+	height: 85vh;
+	width: 100%;
+	top: 100px;
+	color: white;
+	
+	background: linear-gradient(to right, rgba(34, 57, 187, 0.9),
+		rgba(170, 97, 97, 0.5)),
+		url(https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/09/17/868494-carpooling-service-istock-091719.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.ridespage{
+	height: 60vh;
+	width: 100%;
+	top: 100px;
+	color: white;
+	
+	background: linear-gradient(to right, rgba(34, 57, 187, 0.9),
+		rgba(170, 97, 97, 0.5)),
+		url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/friends-in-a-car-1555269228.jpg?crop=0.625xw:0.469xh;0.223xw,0.303xh&resize=1200:*);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.vehiclespage{
+	height: 80vh;
+	width: 100%;
+	top: 100px;
+	color: white;
+	background: linear-gradient(to right, rgba(34, 57, 187, 0.9),
+		rgba(170, 97, 97, 0.5)),
+		url(https://5.imimg.com/data5/FB/QH/GLADMIN-24508057/four-wheeler-vehicle-for-sale-500x500.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.contactusheader{
+	height: 80vh;
+	width: 100%;
+	top: 100px;
+	color: white;
+	background: linear-gradient(to right, rgb(47 54 90 / 90%),
+				  rgb(104 77 77 / 50%)),
+				  url(https://cdn.searchenginejournal.com/wp-content/uploads/2018/06/best-contact-us-pages-760x400.png);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+
+#cab_from li, #cab_to li{
+	list-style-type:none;
+	color:black;
+}
+#cab_from li label input, #cab_to li label input{
+	    margin-right: 5px
+}
+#cab_from li label, #cab_to li label{
+	    margin-bottom: 0px
+}
+#cab_from, #cab_to{
+	background: white;
+	position: relative;
+	left: 15%;
+	overflow: auto;
+	max-height: 200px;
+}
+.list-group-item{
+	padding: 3px;
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.1s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
